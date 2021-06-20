@@ -6,3 +6,6 @@ The main method is located in Simulation.SomController.
 Most of the model mechanics reside in Simulation.Simulation.
 
 This project includes a User Interface which can be toggled.
+
+# Running the project
+Open in eclipse and choose SimulationController as the entry point.
