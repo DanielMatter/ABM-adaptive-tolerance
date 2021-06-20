@@ -980,7 +980,7 @@ public class Simulation extends Observable implements Observer, Runnable
 		boolean isAgentBlue = currAgent.isBlue;
 		double prefMin = 5.00; //meaning always one same must be present
 		double prefMax = 93.00; //meaning always one different is tolerated
-		double oldPref = Double.valueOf(df2.format(currAgent.getThreshold())); // say, 75%, rounded to 2 decimal places
+		double oldPref = currAgent.getThreshold(); // say, 75%, rounded to 2 decimal places
 		double newPref = -44;
 		double prefDecrement = -m;
 		double prefIncrement = m;
